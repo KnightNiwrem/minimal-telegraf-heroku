@@ -1,0 +1,10 @@
+{
+  "name": "minimal-telegraf-heroku",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Curtis Tan <merwinwee@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "telegraf": "^4.0.1"
+  }
+}
