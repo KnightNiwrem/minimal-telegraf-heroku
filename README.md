@@ -17,3 +17,13 @@ Push the code to heroku
 ```
 git push heroku master
 ```
+
+Scale down the web dyno and scale up the worker dyno
+```
+heroku ps:scale web=0 worker=1
+```
+
+Check out the logs
+```
+heroku logs -t
+```
